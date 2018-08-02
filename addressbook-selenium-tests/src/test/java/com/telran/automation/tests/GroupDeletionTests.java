@@ -16,10 +16,6 @@ public class GroupDeletionTests extends TestBase {
         returnToGroupsPage();
     }
 
-    private void selectGroup() {
-        wd.findElement(By.name("selected[]")).click();
-    }
-
     private void clickOnDeleteGroupButton() {
         wd.findElement(By.name("delete")).click();
     }

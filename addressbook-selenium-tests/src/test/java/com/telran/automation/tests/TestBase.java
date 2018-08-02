@@ -76,18 +76,18 @@ wd.quit();
         wd.findElement(By.name("submit")).click();
     }
 
-    public void fillGroupForm() {
+    public void fillGroupForm(String name, String header, String footer) {
         wd.findElement(By.name("group_name")).click();
         wd.findElement(By.name("group_name")).clear();
-        wd.findElement(By.name("group_name")).sendKeys("testGroup");                // fill group form
+        wd.findElement(By.name("group_name")).sendKeys(name);                // fill group form
 
         wd.findElement(By.name("group_header")).click();
         wd.findElement(By.name("group_header")).clear();
-        wd.findElement(By.name("group_header")).sendKeys("testHeader");
+        wd.findElement(By.name("group_header")).sendKeys(header);
 
         wd.findElement(By.name("group_footer")).click();
         wd.findElement(By.name("group_footer")).clear();
-        wd.findElement(By.name("group_footer")).sendKeys("testFooter");
+        wd.findElement(By.name("group_footer")).sendKeys(footer);
     }
 
     public void initiateGroupCreation() {
@@ -104,14 +104,35 @@ wd.quit();
     }
 
 
+    public boolean areElementsPresent(By locator){    // работает также, как и isElementPresent
+       return wd.findElements(locator).size()>0;
+    }
+
+
     public boolean isGroupPresent(){
         return isElementPresent(By.name("selected[]"));
         }
 
     public void createGroup() {
         initiateGroupCreation();
-        fillGroupForm();
+        fillGroupForm("testGroup", "testHeader", "testFooter");
         submitInformation();
         returnToGroupsPage();
+    }
+
+    protected void selectGroup() {
+        wd.findElement(By.name("selected[]")).click();
+    }
+
+    public void submitGroupModification() {
+        wd.findElement(By.xpath("//*[@type='submit']")).click();
+    }
+
+    public void initGroupModification() {
+        wd.findElementByName("edit").click();
+    }
+
+    public int getGroupsCount() {
+        return wd.findElements(By.name("selected[]")).size();
     }
 }
