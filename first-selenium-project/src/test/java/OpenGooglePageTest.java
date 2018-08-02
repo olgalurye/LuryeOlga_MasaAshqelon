@@ -25,7 +25,7 @@ driver.findElement(By.name("q")).sendKeys("Webdriver");
 public void testOpeningTrello(){
         driver.navigate().to("https://trello.com/");
         driver.findElementByXPath("//*[@href='/login']").click();
-   
+
     }
 
 
