@@ -1,6 +1,6 @@
 package com.telran.automation.tests.tests;
 
-import com.telran.automation.tests.Contacts;
+import com.telran.automation.tests.model.Contacts;
 import org.junit.Assert;
 import org.testng.annotations.Test;
 

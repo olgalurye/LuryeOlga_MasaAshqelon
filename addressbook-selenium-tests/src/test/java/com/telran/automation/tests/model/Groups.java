@@ -1,4 +1,4 @@
-package com.telran.automation.tests;
+package com.telran.automation.tests.model;
 
 public class Groups {
     private  String name;

@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="Groups" >
+        <classes>
+            <class name="com.telran.automation.tests.tests.GroupCreationTests" />
+            <class name="com.telran.automation.tests.tests.GroupModificationTests" />
+            <class name="com.telran.automation.tests.tests.GroupDeletionTests" />
+
+        </classes>
+    </test>
+
+    <test name="Contacts">
+        <classes>
+            <class name="com.telran.automation.tests.tests.ContactCreationTests"/>
+            <class name="com.telran.automation.tests.tests.ContactModificationTests"/>
+            <class name="com.telran.automation.tests.tests.ContactDeletionTest"/>
+
+        </classes>
+    </test>
+</suite>

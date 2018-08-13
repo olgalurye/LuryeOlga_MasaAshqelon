@@ -1,6 +1,6 @@
 package com.telran.automation.tests.manager;
 
-import com.telran.automation.tests.Contacts;
+import com.telran.automation.tests.model.Contacts;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -81,7 +81,7 @@ public class ContactHelper extends HelperBase{
     }
 
     public void confirmContactModification() {
-        click(By.xpath("//*input[@value = 'Update']"));
+        click(By.xpath("//input[@value = 'Update']"));
 
     }
 }

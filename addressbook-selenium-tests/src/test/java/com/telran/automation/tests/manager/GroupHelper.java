@@ -1,6 +1,6 @@
 package com.telran.automation.tests.manager;
 
-import com.telran.automation.tests.Groups;
+import com.telran.automation.tests.model.Groups;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
