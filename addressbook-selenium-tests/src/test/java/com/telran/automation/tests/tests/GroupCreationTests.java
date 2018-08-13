@@ -17,9 +17,10 @@ public class GroupCreationTests extends TestBase {
                 .withFooter("testFooter"));
         app.getGroupHelper().submitInformation();
         app.getGroupHelper().returnToGroupsPage();
-        app.getGroupHelper().createGroup();
+
         int after = app.getGroupHelper().getGroupsCount();
-        Assert.assertEquals(after, before + 1);   // проверяем, что групп стало на 1 больше (сравнение actual и ожидаемое)
+
+        Assert.assertEquals(after, before+1);   // проверяем, что групп стало на 1 больше (сравнение actual и ожидаемое)
     }
 
     @Test(priority = 2)
