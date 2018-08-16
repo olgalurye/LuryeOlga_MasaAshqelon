@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.automation.tests.tests.GroupModificationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-13T07:53:41" hostname="Dell" time="1.546">
+<testsuite name="com.telran.automation.tests.tests.GroupModificationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-16T11:49:45" hostname="Dell" time="3.629">
   <properties/>
-  <testcase name="testGroupModification" classname="com.telran.automation.tests.tests.GroupModificationTests" time="1.546"/>
+  <testcase name="testGroupModification" classname="com.telran.automation.tests.tests.GroupModificationTests" time="3.629"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

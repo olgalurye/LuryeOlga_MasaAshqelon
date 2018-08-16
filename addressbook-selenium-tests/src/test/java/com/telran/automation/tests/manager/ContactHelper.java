@@ -2,11 +2,13 @@ package com.telran.automation.tests.manager;
 
 import com.telran.automation.tests.model.Contacts;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class ContactHelper extends HelperBase{
 
-    public ContactHelper(ChromeDriver wd) {
+    public ContactHelper(WebDriver wd) {
+
         super(wd);
     }
 
@@ -48,7 +50,7 @@ public class ContactHelper extends HelperBase{
 
 
     public void clickOnDeleteContactButton() {
-        wd.findElementByXPath("//*[@value='Delete']").click();
+        wd.findElement(By.xpath("//*[@value='Delete']")).click();
     }
 
     public int getContactCount() {

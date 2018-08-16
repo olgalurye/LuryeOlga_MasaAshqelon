@@ -1,11 +1,12 @@
 package com.telran.automation.tests.manager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SessionHelper extends HelperBase {
 
-    public SessionHelper(ChromeDriver wd) {
+    public SessionHelper(WebDriver wd) {
         super (wd);
     }
 
@@ -23,6 +24,6 @@ public class SessionHelper extends HelperBase {
        wd.findElement(By.name("pass")).sendKeys(password);
 
 
-       wd.findElementByXPath("//*[@type='submit']").click();
+       wd.findElement(By.xpath("//*[@type='submit']")).click();
     }
 }

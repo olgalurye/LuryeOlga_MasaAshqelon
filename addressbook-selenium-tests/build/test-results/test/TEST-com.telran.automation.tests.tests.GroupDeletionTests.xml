@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.automation.tests.tests.GroupDeletionTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-13T07:53:43" hostname="Dell" time="0.619">
+<testsuite name="com.telran.automation.tests.tests.GroupDeletionTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-16T11:49:48" hostname="Dell" time="1.219">
   <properties/>
-  <testcase name="testGroupDeletion" classname="com.telran.automation.tests.tests.GroupDeletionTests" time="0.619"/>
+  <testcase name="testGroupDeletion" classname="com.telran.automation.tests.tests.GroupDeletionTests" time="1.219"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

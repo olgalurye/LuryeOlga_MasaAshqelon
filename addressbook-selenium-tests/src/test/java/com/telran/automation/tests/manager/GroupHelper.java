@@ -2,11 +2,12 @@ package com.telran.automation.tests.manager;
 
 import com.telran.automation.tests.model.Groups;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class GroupHelper extends HelperBase {
 
-    public GroupHelper(ChromeDriver wd) {
+    public GroupHelper(WebDriver wd) {
         super(wd);
     }
 
@@ -64,7 +65,7 @@ public class GroupHelper extends HelperBase {
     }
 
     public void initGroupModification() {
-                wd.findElementByName("edit").click();
+                wd.findElement(By.name("edit")).click();
     }
 
     public int getGroupsCount() {

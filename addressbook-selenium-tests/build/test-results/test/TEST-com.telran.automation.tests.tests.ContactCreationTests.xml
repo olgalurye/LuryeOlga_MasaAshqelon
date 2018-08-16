@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.automation.tests.tests.ContactCreationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-08-13T07:53:47" hostname="Dell" time="10.624">
+<testsuite name="com.telran.automation.tests.tests.ContactCreationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-08-16T11:49:54" hostname="Dell" time="12.213">
   <properties/>
-  <testcase name="nameCreationTest" classname="com.telran.automation.tests.tests.ContactCreationTests" time="9.572"/>
-  <testcase name="nameCreationTestvv" classname="com.telran.automation.tests.tests.ContactCreationTests" time="1.051"/>
+  <testcase name="nameCreationTest" classname="com.telran.automation.tests.tests.ContactCreationTests" time="10.353"/>
+  <testcase name="nameCreationTestvv" classname="com.telran.automation.tests.tests.ContactCreationTests" time="1.86"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
