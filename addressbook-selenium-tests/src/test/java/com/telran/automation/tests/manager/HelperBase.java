@@ -25,7 +25,8 @@ public class HelperBase {
         return wd.findElements(locator).size()>0;
     }
 
-    public void confirmAlert() {
+    public void confirmAlert() throws InterruptedException {
         wd.switchTo().alert().accept();
+        Thread.sleep(2000);
     }
 }

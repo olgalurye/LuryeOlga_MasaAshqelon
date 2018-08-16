@@ -76,6 +76,9 @@ public class ContactHelper extends HelperBase{
 
     public void goToHomePage() {
        click(By.xpath("//a[@href='./']"));
+
+
+
     }
 
     public void initEditContactByClickingOnThePencil() {
