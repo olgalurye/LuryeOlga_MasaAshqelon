@@ -8,6 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/first-selenium-project.iml" filepath="$PROJECT_DIR$/.idea/modules/first-selenium-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/first-selenium-project_main.iml" filepath="$PROJECT_DIR$/.idea/modules/first-selenium-project_main.iml" group="first-selenium-project" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/first-selenium-project_test.iml" filepath="$PROJECT_DIR$/.idea/modules/first-selenium-project_test.iml" group="first-selenium-project" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/s-labs.iml" filepath="$PROJECT_DIR$/.idea/modules/s-labs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/s-labs_main.iml" filepath="$PROJECT_DIR$/.idea/modules/s-labs_main.iml" group="s-labs" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/s-labs_test.iml" filepath="$PROJECT_DIR$/.idea/modules/s-labs_test.iml" group="s-labs" />
     </modules>
   </component>
 </project>
